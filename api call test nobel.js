@@ -73,17 +73,17 @@ var drawDetails = function(results)
     
 }
 
-var nobelPromise = 
+var laureatesPromise = 
              d3.json("https://api.nobelprize.org/2.0/laureates?_ga=2.219546010.2082255857.1614878764-198687587.1614878764")
              
-console.log ("looking", nobelPromise)
+console.log ("looking", laureatesPromise)
 
-    nobelPromise.then(function(results)
+    laureatesPromise.then(function(results)
     { 
 console.log ("got ittt", results)
       setBanner("Ready to Explore");
-      makeTableHeader(results.results.nobel);
-      makeTable(results.results.nobel, "ALL")
+      makeTableHeader(results.results.laureates);
+      makeTable(results.results.laureates, "ALL")
     },
       function(err)
       {
