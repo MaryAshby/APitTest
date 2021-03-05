@@ -82,8 +82,6 @@ console.log ("looking", laureatesPromise)
     { 
 console.log ("got ittt", results)
       setBanner("Ready to Explore");
-      makeTableHeader(results.results.laureates);
-      makeTable(results.results.laureates, "ALL")
     },
       function(err)
       {
