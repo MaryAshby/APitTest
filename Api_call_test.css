@@ -1,0 +1,67 @@
+body
+{
+width: 800px;
+  background-color: #E5D3BB;
+  color: #343434;
+  font-family: Times;
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.Notes a:link
+{
+  font-size: 16px;
+  background-color:  #E5D3BB;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+  border-top-right-radius: 25px;
+}
+
+.Notes a:hover, a:active
+{
+  background-color: #18586F;
+}
+
+h1
+{
+ font-family: Bookman;
+ font-size: 36px;
+ font-style: bold;
+ background-color: #E5D3BB;
+ text-align: center;
+border-top-right-radius: 25px;
+}
+
+h2
+{
+ font-family: Arial;
+ font-size: 18px;
+ background-color: #E5D3BB;
+ padding: 14px 25px;
+ border-bottom-right-radius: 25px;
+ text-align: center;
+}
+
+
+
+/*table*/
+
+table
+{
+  font-size: 18px;
+  background-color: #E5D3BB;
+  border: 5px solid #18586F;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead
+{
+  padding: 20px 50px;
+  text-align: center;
+  font-family: Arial;
+  font-size: 18px:
+}
+
